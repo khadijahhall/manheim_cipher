@@ -1,0 +1,5 @@
+<div class="jumbotron">
+  <%= @encryption %>
+
+  <%= link "Create new Cipher", to: page_path(@conn, :index), class: "btn btn-primary" %>
+</div>
